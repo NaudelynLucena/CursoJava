@@ -7,5 +7,6 @@ public static void main(String[] args) {
     r = scanner.nextDouble();
 
     a=Math.PI*(r*r); 
-    System. out. println("El área de un círculo de radio " +r+ " es: "+a); } 
+    System. out. println("El área de un círculo de radio " +r+ " es: "+a); 
+    scanner.close();}
 }
